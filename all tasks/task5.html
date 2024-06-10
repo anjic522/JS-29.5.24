@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>Q.Take numbers 1 to 10, display even numbers in one color, and display odd numbers in another color.
+</h1><br><hr>
+
+
+
+
+<h1>this is 10 numbers</h1>
+
+
+    <h2>1</h2>
+    <h2>2</h2>
+    <h2>3</h2>
+    <h2>4</h2>
+    <h2>5</h2>
+    <h2>6</h2>
+    <h2>7</h2>
+    <h2>8</h2>
+    <h2>9</h2>
+    <h2>10</h2>
+
+    <h1>CODE:</h1><hr>
+<h1>   var k = document.querySelectorAll("h2")<br>
+    for(i=0;i<k.length;i++)<br>
+    { <br>
+    
+        if(i%2 == 0)<br>
+        {<br>
+            k[i].style.color="blue"<br>
+            console.log(k[i].innerText)<br>
+        }<br>
+        else{<br>
+            k[i].style.color="red"<br>
+            console.log(k[i].innerText)<br>
+        }<br>
+    }<br>
+    </h1><hr>
+
+    <script>
+         var k = document.querySelectorAll("h2")
+for(i=0;i<k.length;i++)
+{ 
+
+    if(i%2 == 0)
+    {
+        k[i].style.color="blue"
+        console.log(k[i].innerText)
+    }
+    else{
+        k[i].style.color="red"
+        console.log(k[i].innerText)
+    }
+}
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Q.Create a web page with different tags, give them the same id name, retrieve the content, and concatenate it.
+    </h1><br><hr>
+    <h1>different tags, with the same id name,</h1><br>
+    <h2 id="ba">hi,hello</h2>
+    <p id="ba">how are you</p>
+    <hr>
+    <h1>CODE:</h1><hr>
+    <h1>let g=[];<br>
+        let h= document.querySelectorAll("#ba")<br>
+        for(i=0;i< h.length;i++){<br>
+          g=g+" "+ h[i].innerText;<br>
+        }<br>
+        console.log(g);<br>
+    </h1>
+    <script>
+        let g=[];
+    let h= document.querySelectorAll("#ba")
+    for(i=0;i< h.length;i++){
+      g=g+" "+ h[i].innerText;
+    }
+    console.log(g);
+
+    </script>
+</body>
+</html>
